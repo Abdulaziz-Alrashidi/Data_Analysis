@@ -1,6 +1,6 @@
 SpaceX Falcon 9 First Stage Landing Prediction
 
-This repository contains a comprehensive data analysis project focused on understanding and predicting the success of SpaceX Falcon 9 first-stage landings. It demonstrates end-to-end data analysis workflows, from raw data collection to feature engineering, exploratory analysis, and predictive modeling.
+This repository contains a comprehensive data analysis project focused on understanding and predicting the success of SpaceX Falcon 9 first-stage landings. It demonstrates end-to-end data analysis workflows, from raw data collection to feature engineering, exploratory analysis, and predictive modeling using Python.
 
 Project Focus
 
