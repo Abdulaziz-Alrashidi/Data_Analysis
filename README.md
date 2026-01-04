@@ -24,6 +24,7 @@ Performed Exploratory Data Analysis (EDA) using SQL queries.
 Developed an interactive dashboard for real-time launch site visualization.
 
 Trained and compared SVM, Decision Tree, and KNN models for optimal accuracy.
+---
 
 *Project 2: High-cardinality Analysis (Completed)*
 
