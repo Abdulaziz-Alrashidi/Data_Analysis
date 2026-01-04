@@ -5,7 +5,7 @@ This repository showcases a diverse collection of data analysis and data science
 ## **Projects**
 
 *Project 1: SpaceX Analysis (Completed)*
-
+---
 
 Goal: Determine the likelihood of successful first-stage landings to estimate launch costs.
 
@@ -24,9 +24,10 @@ Performed Exploratory Data Analysis (EDA) using SQL queries.
 Developed an interactive dashboard for real-time launch site visualization.
 
 Trained and compared SVM, Decision Tree, and KNN models for optimal accuracy.
----
+
 
 *Project 2: High-cardinality Analysis (Completed)*
+---
 
 Goal: Explore and analyze the Adult Income Census dataset to uncover patterns in demographics and employment, with a focus on high-cardinality categorical features.
 
