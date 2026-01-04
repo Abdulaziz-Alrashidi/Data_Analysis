@@ -2,7 +2,7 @@
 
 This repository showcases a diverse collection of data analysis and data science projects, demonstrating expertise in SQL, Python, Power BI, machine learning, and advanced analytics. Each project highlights end-to-end workflows, from data acquisition and integration to cleaning, transformation, exploration, visualization, and predictive modeling. The projects are self-contained, reproducible, and emphasize actionable insights, reflecting real-world analytical problem-solving.
 
-**Projects**
+## **Projects**
 
 Project 1: SpaceX Analysis
 
