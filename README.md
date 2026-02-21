@@ -1,8 +1,10 @@
-Data Analysis Projects Repository
+# Data Analysis Projects Repository
 
 A curated collection of end-to-end data analysis and data science projects demonstrating strong foundations in SQL, Python, machine learning, and BI tools. Each project emphasizes structured workflows, data validation, reproducibility, and actionable insights aligned with real-world analytical problem-solving.
+----
+Projects:
 
-Projects
+----
 1. SpaceX Landing Prediction
 
 Goal: Predict first-stage landing success to estimate launch cost efficiency.
@@ -19,6 +21,7 @@ Built interactive launch-site visualizations
 
 Compared SVM, Decision Tree, and KNN models
 
+----
 2. High-Cardinality Feature Analysis
 
 Goal: Analyze the Adult Income dataset with focus on complex categorical variables.
@@ -35,6 +38,7 @@ Engineered interpretable features
 
 Compared raw, encoded, and feature-engineered approaches
 
+----
 3. Sales Performance & Customer Segmentation
 
 Goal: Identify profitability drivers and customer segments from transactional sales data.
