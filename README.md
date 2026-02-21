@@ -54,3 +54,27 @@ Engineered KPIs (profit margin, shipping lag)
 Applied RFM segmentation
 
 Developed executive-level interactive dashboard
+
+----
+4. UAE Banking Customer Satisfaction Analysis
+
+Goal: Identify the primary drivers of customer satisfaction and uncover trends across customer segments in the UAE banking sector.
+Solution: Built a structured analytical pipeline combining robust machine learning modeling with driver interpretability and segmentation analysis.
+
+Tech Stack: Python, Pandas, NumPy, Scikit-Learn, SHAP
+
+Highlights:
+
+Performed systematic data cleaning and variance filtering on a 222-question survey dataset
+
+Grouped CSAT variables into conceptual domains to improve interpretability
+
+Replaced unstable linear regression (severe multicollinearity) with Histogram Gradient Boosting
+
+Applied permutation importance and SHAP for reliable driver identification
+
+Identified Physical Reach (branches, ATMs, waiting time, comfort) as the strongest satisfaction driver
+
+Conducted segmentation analysis across age, account tenure, bank, and service channel
+
+Developed actionable recommendations for onboarding, senior customers, and service optimization
