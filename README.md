@@ -1,82 +1,52 @@
-# DataAnalysis Projects Repository
+Data Analysis Projects Repository
 
-This repository showcases a diverse collection of data analysis and data science projects, demonstrating skills in SQL, Python, Power BI, machine learning, and advanced analytics. Each project highlights end-to-end workflows, from data acquisition and integration to cleaning, transformation, exploration, visualization, and analysis. The projects are self-contained, reproducible, and emphasize actionable insights, reflecting real-world analytical problem-solving.
+A curated collection of end-to-end data analysis and data science projects demonstrating strong foundations in SQL, Python, machine learning, and BI tools. Each project emphasizes structured workflows, data validation, reproducibility, and actionable insights aligned with real-world analytical problem-solving.
 
-## Projects
+Projects
+1. SpaceX Landing Prediction
 
-*Project 1: SpaceX Analysis (Completed)*
----
-
-Goal: Determine the likelihood of successful first-stage landings to estimate launch costs.
-
-The Problem: Commercial space flight cost is heavily dependent on rocket reusability.
-
-The Solution: Built a classification pipeline using Python to predict landing outcomes.
+Goal: Predict first-stage landing success to estimate launch cost efficiency.
+Solution: Built a full classification pipeline and compared multiple ML models.
 
 Tech Stack: Python, SQL, Scikit-Learn, Folium
+Highlights:
 
-Key Highlights: 
+Integrated data from APIs, web scraping, SQL, and local files
 
-Consolidation of datasets from multiple sources (APIs, web scraping, CSVs, SQL, and local files) into structured and validated format
+Performed EDA using SQL and Python
 
-Performed Exploratory Data Analysis (EDA) using SQL queries.
+Built interactive launch-site visualizations
 
-Developed an interactive dashboard for real-time launch site visualization.
+Compared SVM, Decision Tree, and KNN models
 
-Trained and compared SVM, Decision Tree, and KNN models for optimal accuracy.
+2. High-Cardinality Feature Analysis
 
-
-*Project 2: High-cardinality Analysis (Completed)*
----
-
-Goal: Explore and analyze the Adult Income Census dataset to uncover patterns in demographics and employment, with a focus on high-cardinality categorical features.
-
-The Problem: Large categorical datasets can be complex, imbalanced, and high-dimensional, making it challenging to extract meaningful insights while maintaining interpretability.
-
-The Solution: Performed end-to-end data analysis and feature engineering to clean, consolidate, and simplify categories, revealing actionable patterns and ensuring reproducibility.
+Goal: Analyze the Adult Income dataset with focus on complex categorical variables.
+Solution: Reduced feature cardinality while preserving signal and interpretability.
 
 Tech Stack: Python, Pandas, NumPy, Scikit-Learn
+Highlights:
 
-Key Highlights:
+Cleaned and profiled messy categorical data
 
-Conducted detailed data profiling and handling of missing or inconsistent values.
+Applied structured cardinality reduction
 
-Systematically reduced cardinality in high-cardinality features by merging semantically similar categories while preserving meaningful signals.
+Engineered interpretable features
 
-Performed exploratory data analysis (EDA) to identify trends, distributions, correlations, and class imbalances.
+Compared raw, encoded, and feature-engineered approaches
 
-Created derived features to enhance interpretability and analytical insights.
+3. Sales Performance & Customer Segmentation
 
-Compared multiple approaches (feature-engineered, fully encoded, raw) to understand trade-offs between complexity, interpretability, and predictive power.
+Goal: Identify profitability drivers and customer segments from transactional sales data.
+Solution: Built a structured auditing, cleaning, KPI engineering, and segmentation pipeline.
 
+Tech Stack: Python, Pandas, Power BI
+Highlights:
 
-*Project 3: Sales Performance & Customer Segmentation Analysis (Completed)*
----
+Performed systematic data auditing and validation
 
-Goal:
-Analyze sales performance and customer behavior to uncover operational inefficiencies, profitability drivers, and strategic customer segments.
+Engineered KPIs (profit margin, shipping lag)
 
-The Problem:
-Transactional sales data often contains inconsistent data types, missing values, and noisy records. Without proper auditing and validation, downstream analysis and dashboards can be misleading.
+Applied RFM segmentation
 
-The Solution:
-Implemented a structured data auditing, cleaning, and transformation pipeline before engineering KPIs and customer-level insights, ensuring analytical accuracy and reliability.
-
-Tech Stack:
-Python, Pandas, Power BI
-
-Key Highlights:
-
-Performed systematic data auditing to validate schema, data types, null values, and logical consistency across all fields.
-
-Standardized and corrected numerical, categorical, and datetime columns to ensure analytical readiness and Power BI compatibility.
-
-Conducted data quality checks to confirm completeness, valid ranges, and realistic distributions before analysis.
-
-Engineered operational KPIs such as shipping lag and profit margin to assess efficiency and profitability.
-
-Applied the RFM (Recency, Frequency, Monetary) framework to segment customers based on behavioral patterns.
-
-Aggregated transactional data at the customer level to distinguish high-value, loyal, and at-risk segments.
-
-Built an interactive Power BI dashboard with KPI cards and customer segmentation visuals for executive-level insights.
+Developed executive-level interactive dashboard
